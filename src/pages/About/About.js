@@ -1,12 +1,12 @@
 import React from 'react';
-import my2 from '../../images/my2.jpg';
-import myResume from '../../file/resume.pdf';
+import my2 from '../../images/my3.jpeg';
+import myResume from '../../file/resume.pdf' ;
 
 const About = () => {
     return (
         <div>
-            <div id="about" className="about-me-container pb-4 pt-4 container-fluid">
-                <div className="about-me-title text-center  pt-4"
+            <div id="about" className="about-me-container py-5 container-fluid">
+                <div className="about-me-title text-center  pt-5"
                     style={{color: "rgba(242, 232, 232, 0.946)", textTransform:"uppercase"}}>
                     <h3>About <span style={{color:"rgba(139, 179, 238, 0.979)"}}>me</span></h3>
                     <div className="hr-container">
@@ -15,11 +15,11 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row pb-5">
                     <div className="col-sm-12 col-lg-4 about-me-image pl-4 pt-4 mb-4">
                         <img className="img-fluid rounded" src={my2} alt="pic" />
                     </div>
-                    <div className="col-sm-12 col-lg-8 about-me-bio mt-3 text-white pl-4 pr-4"
+                    <div className="col-sm-12 pb-5 col-lg-8 about-me-bio mt-3 text-white pl-4 pr-4"
                         style={{color:"rgba(242, 232, 232, 0.946)"}}>
                         <h4 className="text-danger">Who am i?</h4>
                         <h4 className="m-0 ">I'm Russel</h4>

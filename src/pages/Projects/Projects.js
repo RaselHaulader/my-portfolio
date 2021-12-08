@@ -9,7 +9,7 @@ import ProjectItem from './ProjectItem';
 const Projects = () => {
     return (
         <div>
-            <div id="project-sec" className="project-container text-white container-fluid">
+            <div id="project-sec" className="project-container py-5 text-white container-fluid">
                 <div className="hr-cap m-auto text-center text-white">
                     <div className="about-me-title text-center  pt-4"
                         style={{ color: "rgba(242, 232, 232, 0.946)", textTransform: "uppercase" }}>
@@ -22,7 +22,7 @@ const Projects = () => {
                     <p className="caption">Here all of my project</p>
                 </div> <br />
 
-                <div className="row project-row ">
+                <div className="row project-row pt-2 pb-5">
                     <ProjectItem
                         id='1'
                         info='Hospital Related Website.'

@@ -19,7 +19,7 @@ const Contact = () => {
 
     return (
         <div>
-            <div id="contact" className=" contact-section container-fluid">
+            <div id="contact" className="py-5 contact-section container-fluid">
                 <div className="hr-cap m-auto text-center text-white contact-header">
                     <div className="about-me-title text-center  pt-4"
                         style={{color:"rgba(242, 232, 232, 0.946)", textTransform:"uppercase"}}>

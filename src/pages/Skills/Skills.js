@@ -3,7 +3,7 @@ import React from 'react';
 const Skills = () => {
     return (
         <div>
-            <div id="my-skill" className="skill-container p-4 container-fluid">
+            <div id="my-skill" className="skill-container py-5 p-4 container-fluid">
                 <div className="hr-cap m-auto text-center text-white">
                     <div className="about-me-title text-center  pt-4"
                         style={{color:"rgba(242, 232, 232, 0.946)", textTransform:"uppercase"}}>
@@ -15,7 +15,7 @@ const Skills = () => {
                     </div>
                     <p className="caption">Here all of my skills</p>
                 </div> <br />
-                <div className="row skl">
+                <div className="row skl py-5 my-5">
                     <div className=" skill-bar-container col-sm-12 col-lg-4 ">
                         <ul>
                             <li>
