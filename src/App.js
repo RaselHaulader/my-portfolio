@@ -1,21 +1,17 @@
 import './App.css';
-import About from './pages/About/About';
-import Banner from './pages/Banner/Banner';
-import Contact from './pages/Contact/Contact';
-import Projects from './pages/Projects/Projects';
-import Skills from './pages/Skills/Skills';
 import { init } from 'emailjs-com';
 import { initializeApp } from "firebase/app";
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+  Routes,
+  Route
 } from "react-router-dom";
+
 import Home from './pages/Home/Home';
 import Blogs from './pages/Blogs/Blogs';
 import NotFound from './pages/NotFound/NotFound';
 import ProjectDetails from './pages/ProjectDetails/ProjectDetails';
+import Study from './pages/Study/Study';
 const firebaseConfig = {
   apiKey: "AIzaSyBwlr09kH1CMW4X_mofe-vaWeVHmUclCeY",
   authDomain: "my-portfolio-80b66.firebaseapp.com",
@@ -30,23 +26,14 @@ init("user_UDPjpjTCty7OiqgJruKyI");
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route exact path="/">
-          <Home></Home>
-        </Route>
-        <Route path="/home">
-          <Home></Home>
-        </Route>
-        <Route path="/blogs">
-          <Blogs></Blogs>
-        </Route>
-        <Route path="/projectDetails/:id">
-          <ProjectDetails></ProjectDetails>
-        </Route>
-        <Route path="*">
-          <NotFound></NotFound>
-        </Route>
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Home></Home>} />
+        <Route path="/home" element={<Home></Home>} />
+        <Route path="/blogs" element={<Blogs></Blogs>} />
+        <Route path="/projectDetails/:id" element={<ProjectDetails></ProjectDetails>} />
+        <Route path="/study" element={<Study />}/>
+        <Route path="*" element={<NotFound></NotFound>} />
+      </Routes>
     </Router>
   );
 }

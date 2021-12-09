@@ -1,0 +1,25 @@
+.study-container{
+    background-image: url('../../images/studybg.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    color: rgb(230, 230, 230);
+}
+.sentences-container{
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+.sentence-container{
+  border: 1px solid gray;
+  background-color: rgba(10, 41, 214, 0.151);
+}
+.english-sentence{
+  transition: 1s;
+  overflow: hidden;
+}
+.eye-btn{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding:10px 10px;
+  border-radius: 50%;
+}
+
