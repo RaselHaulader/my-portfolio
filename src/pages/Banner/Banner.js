@@ -38,10 +38,10 @@ const Banner = () => {
                         </div>
 
                         <div className="header-bio-icon mt-4">
-                            <i className="fa fah fa-facebook"></i>
-                            <i className="fa fah fa-skype"></i>
-                            <i className="fa fah fa-twitter"></i>
-                            <i className="fa fah fa-whatsapp"></i>
+                            <a href="https://web.facebook.com/mdraselhaulader01"><i className="fa fah fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/md-rasel-haulader-109280218/"><i className="fa fah fa-linkedin"></i></a>
+                            <a href="https://github.com/RaselHaulader"><i className="fa fah fa-github"></i></a>
+                            <a href="#whatsApp"><i className="fa fah fa-whatsapp"></i></a>
                         </div>
                     </div>
                 </div>
