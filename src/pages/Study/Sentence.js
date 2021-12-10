@@ -24,12 +24,12 @@ const Sentence = () => {
     return (
         <div className='sentence-container rounded-3 p-3 my-2'>
             <div className="d-flex justify-content-between align-items-center">
-                <h4> বাংলা বাক্য এখানে থাকবে বাংলা বাক্য এখানে থাকবে বাংলা বাক্য এখানে থাকবে বাংলা বাক্য এখানে থাকবে    </h4>
+                <p className="fs-6"> বাংলা বাক্য এখানে থাকবে বাংলা বাক্য এখানে থাকবে বাংলা বাক্য এখানে থাকবে বাংলা বাক্য এখানে থাকবে    </p>
                 <span onClick={handleToggle} > {!open ? <i className="fa eye-btn fa-eye" /> : <i class="fa eye-btn fa-eye-slash"></i>} </span>
             </div>
             <div style={style} className="english-sentence">
                 <hr />
-                <p className="fs-3">English translate form Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, error explicabo fugit laborum eius soluta, exercitationem voluptatum at maiores corrupti quaerat. Beatae dicta atque eum neque molestias fuga sint perferendis.</p>
+                <p className="fs-5">English translate form Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, error explicabo fugit laborum eius soluta, exercitationem voluptatum at maiores corrupti quaerat. Beatae dicta atque eum neque molestias fuga sint perferendis.</p>
             </div>
         </div>
     );
