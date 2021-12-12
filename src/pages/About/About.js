@@ -2,6 +2,7 @@ import React from 'react';
 import my2 from '../../images/my3.jpeg';
 
 const About = () => {
+
     return (
         <div>
             <div id="about" className="about-me-container py-5 container-fluid">
@@ -45,3 +46,5 @@ const About = () => {
 };
 
 export default About;
+
+
