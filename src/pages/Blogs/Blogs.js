@@ -5,7 +5,7 @@ const Blogs = () => {
     return (
         <div className="bg-dark" style={{height:'100vh'}}>
             <Navbar></Navbar>
-            <h1 className='text-white m-5'>Cooking..</h1>
+            <h1 className='text-white m-5'>Coming soon... proccess is cooking...</h1>
         </div>
     );
 };
