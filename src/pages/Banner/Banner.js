@@ -5,26 +5,22 @@ import './Banner.css';
 import Navbar from '../Navbar/Navbar';
 
 const Banner = () => {
-    useEffect(() => {
-        window.onscroll = () => {
-            console.log(window.pageYOffset * .09)
-            console.log(window.innerWidth)
-            console.log(window.innerHeight)
-        }
-    }, []);
+    // useEffect(() => {
+    //     window.onscroll = () => {
+    //         console.log(window.pageYOffset * .09)
+    //         console.log(window.innerWidth)
+    //         console.log(window.innerHeight)
+    //     }
+    // }, []);
     return (
         <div>
-            <div className="header-container">
-
-
-                <div style={{ position: 'relative', width: '100%' }}>
+            <div className="header-container p-0 m-0">
+                <div className='banner-container' >
                     <Navbar></Navbar>
-                    <div className="header-bio" style={{ zIndex: '10', position: 'relative' }}>
-
+                    <div className="header-bio">
                         <div className="header-bio-image text-center bounce-in-top ">
                             <img className=" rounded-circle" src={my} alt="" width="130px" />
                         </div>
-
                         <div className="header-bio-intro d-flex justify-content-center flex-column align-items-center mt-3">
                             <div className="">
                                 <h1 className="typewriter ">Md Rasel Haulader</h1>
@@ -34,9 +30,9 @@ const Banner = () => {
                                 I am passionate about all things web <br /> development.
                                 I care about writing clean code and<br />
                                 I genuinely love to learn.
-                                "</p>
+                                "
+                            </p>
                         </div>
-
                         <div className="header-bio-icon mt-4">
                             <a href="https://web.facebook.com/mdraselhaulader01"><i className="fa fah fa-facebook"></i></a>
                             <a href="https://www.linkedin.com/in/md-rasel-haulader-109280218/"><i className="fa fah fa-linkedin"></i></a>
@@ -46,17 +42,17 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="animation-area">
-                    <ul className="box-area">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    <ul className="box-area m-0 p-0">
+                        <li>Html</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>React Js</li>
+                        <li>Node Js</li>
+                        <li>MongoDB</li>
+                        <li>Express Js</li>
+                        <li>Firebase</li>
+                        <li>Heroku</li>
+                        <li>Redux</li>
                     </ul>
                 </div>
             </div>
