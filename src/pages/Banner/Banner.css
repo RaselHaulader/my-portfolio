@@ -4,6 +4,14 @@
       min-height:100vh;
       padding-bottom: 10px;
 }
+.banner-details{
+    position: absolute;
+    z-index: 20;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
 .header-bio{
     position: relative;
 }
@@ -21,14 +29,12 @@
     position: absolute;
     display: block;
     list-style: none;
-    background: rgba(255, 255, 255, 0);
     animation: animate 10s linear infinite;
-    border-radius:0;
     bottom: -120px;
     padding: 20px;
     font-weight: bolder;
     font-size: 2rem;
-    color: rgba(255, 255, 255, 0.062);
+    color: rgba(255, 255, 255, 0.089);
 }
 .box-area li:nth-child(1){
     left: 86%;

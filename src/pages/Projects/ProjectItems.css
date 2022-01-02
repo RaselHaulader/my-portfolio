@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
 }
 .project-btn-container button{
     background-color:transparent;
@@ -23,8 +24,7 @@
    
 }
 .project-btn-container button:hover {
-    border-bottom: 5px solid white;
-    border-top: 4px solid white;
+   background-color: rgba(23, 7, 255, 0.5);
 }
 .project-btn-container{
     display: flex;

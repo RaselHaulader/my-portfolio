@@ -21,28 +21,28 @@ const Skills = () => {
                             <li>
                                 <div className="skill-icon-html"><i className="fa fa-html5" aria-hidden="true"></i></div>
                                 <h6 className="skill-title">HTML5</h6>
-                                <h6 className="skill-title1">90%</h6>
+                                <h6 className="skill-title1">80%</h6>
                                 <div className="skill-bar skill-bar-html">
                                 </div>
                             </li>
                             <li>
                                 <div className="skill-icon-css"><i className="fa fa-css3" aria-hidden="true"></i></div>
                                 <h6 className="skill-title">CSS3</h6>
-                                <h6 className="skill-title1">85%</h6>
+                                <h6 className="skill-title1">75%</h6>
                                 <div className="skill-bar skill-bar-css">
                                 </div>
                             </li>
                             <li>
                                 <div className="skill-icon-bootstrap"><img src="" alt="" /></div>
                                 <h6 className="skill-title">Bootstrap</h6>
-                                <h6 className="skill-title1">90%</h6>
+                                <h6 className="skill-title1">70%</h6>
                                 <div className="skill-bar skill-bar-bootstrap">
                                 </div>
                             </li>
                             <li>
                                 <div className="skill-icon-javascript"><img src="" alt="" /></div>
                                 <h6 className="skill-title">Javascript</h6>
-                                <h6 className="skill-title1">80%</h6>
+                                <h6 className="skill-title1">70%</h6>
                                 <div className="skill-bar skill-bar-javascript">
                                 </div>
                             </li>
@@ -54,28 +54,28 @@ const Skills = () => {
                             <li>
                                 <div className="skill-icon"><i className="fa fa-html5" aria-hidden="true"></i></div>
                                 <h6 className="skill-title">React js</h6>
-                                <h6 className="skill-title1">85%</h6>
+                                <h6 className="skill-title1">75%</h6>
                                 <div className="skill-bar skill-bar-react">
                                 </div>
                             </li>
                             <li>
                                 <div className="skill-icon"><i className="fa fa-html5" aria-hidden="true"></i></div>
                                 <h6 className="skill-title">Node js</h6>
-                                <h6 className="skill-title1">85%</h6>
+                                <h6 className="skill-title1">65%</h6>
                                 <div className="skill-bar skill-bar-php">
                                 </div>
                             </li>
                             <li>
                                 <div className="skill-icon"><i className="fa fa-html5" aria-hidden="true"></i></div>
                                 <h6 className="skill-title">Express js</h6>
-                                <h6 className="skill-title1">80%</h6>
+                                <h6 className="skill-title1">60%</h6>
                                 <div className="skill-bar skill-bar-wp">
                                 </div>
                             </li>
                             <li>
                                 <div className="skill-icon"><i className="fa fa-html5" aria-hidden="true"></i></div>
                                 <h6 className="skill-title">MongoDb</h6>
-                                <h6 className="skill-title1">70%</h6>
+                                <h6 className="skill-title1">60%</h6>
                                 <div className="skill-bar skill-bar-python">
                                 </div>
                             </li>
@@ -86,14 +86,14 @@ const Skills = () => {
                             <li>
                                 <div className="skill-icon"><i className="fa fa-html5" aria-hidden="true"></i></div>
                                 <h6 className="skill-title">Material Ui</h6>
-                                <h6 className="skill-title1">85%</h6>
+                                <h6 className="skill-title1">65%</h6>
                                 <div className="skill-bar skill-bar-react">
                                 </div>
                             </li>
                             <li>
                                 <div className="skill-icon"><i className="fa fa-html5" aria-hidden="true"></i></div>
                                 <h6 className="skill-title">Tailwind css</h6>
-                                <h6 className="skill-title1">85%</h6>
+                                <h6 className="skill-title1">75%</h6>
                                 <div className="skill-bar skill-bar-php">
                                 </div>
                             </li>
@@ -107,7 +107,7 @@ const Skills = () => {
                             <li>
                                 <div className="skill-icon"><i className="fa fa-html5" aria-hidden="true"></i></div>
                                 <h6 className="skill-title">Stripe</h6>
-                                <h6 className="skill-title1">70%</h6>
+                                <h6 className="skill-title1">80%</h6>
                                 <div className="skill-bar skill-bar-python">
                                 </div>
                             </li>

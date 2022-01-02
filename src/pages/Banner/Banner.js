@@ -16,6 +16,9 @@ const Banner = () => {
         <div>
             <div className="header-container p-0 m-0">
                 <div className='banner-container' >
+
+                </div>
+                <div className='banner-details'>
                     <Navbar></Navbar>
                     <div className="header-bio">
                         <div className="header-bio-image text-center bounce-in-top ">
