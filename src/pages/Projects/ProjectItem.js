@@ -27,9 +27,6 @@ const ProjectItem = ({ img, name, live, clientCode, serverCode, id, info }) => {
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     );
 };

@@ -24,12 +24,13 @@ const Projects = () => {
 
                 <div className="row project-row pt-2 pb-5">
                     <ProjectItem
-                        id='1'
-                        info='Hospital Related Website.'
-                        img={project1}
-                        name='HealthCare Hospital'
-                        clientCode="https://github.com/RaselHaulader/Hospital"
-                        live="https://health-care-hospital-dd05d.web.app/"
+                        id='2'
+                        img={project3}
+                        name={'Helmet Hut'}
+                        info='Helmet selling website'
+                        clientCode='https://github.com/RaselHaulader/Helmet-hut-client-side'
+                        serverCode='https://github.com/RaselHaulader/Helmet-hut-sever-side'
+                        live='https://helmet-hut.web.app/'
                     />
                     <ProjectItem
                         id='3'
@@ -41,13 +42,12 @@ const Projects = () => {
                         live="https://foodexpress-76cd4.web.app/"
                     />
                     <ProjectItem
-                        id='2'
-                        img={project3}
-                        name={'Helmet Hut'}
-                        info='Helmet selling website'
-                        clientCode='https://github.com/RaselHaulader/Helmet-hut-client-side'
-                        serverCode='https://github.com/RaselHaulader/Helmet-hut-sever-side'
-                        live='https://helmet-hut.web.app/'
+                        id='1'
+                        info='Hospital Related Website.'
+                        img={project1}
+                        name='HealthCare Hospital'
+                        clientCode="https://github.com/RaselHaulader/Hospital"
+                        live="https://health-care-hospital-dd05d.web.app/"
                     />
                     <ProjectItem
                         id='4'
