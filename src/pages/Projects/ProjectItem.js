@@ -4,9 +4,9 @@ import './ProjectItems.css'
 
 const ProjectItem = ({ img, name, live, clientCode, serverCode, id, info }) => {
     return (
-        <div className="col-sm-12 rounded-3 col-lg-4 project-col ">
+        <div className=" rounded-3 project-col ">
 
-            <div className="project-demo  rounded-3 position-relative p-3">
+            <div data-aos="zoom-in-up" className="project-demo  rounded-3 position-relative p-3">
                 <div className="project-pic ">
                     <img className='rounded-3' width="100%" src={img} alt="" />
                 </div>

@@ -32,8 +32,8 @@ const Contact = () => {
                     <p className="caption">Send me a Massage</p>
                 </div> <br />
 
-                <div className="contact-row">
-                    <div className="contact-item">
+                <div  className="contact-row">
+                    <div data-aos="zoom-in-right" className="contact-item">
 
                         <h2>Getting in touch is easy!</h2>
                         <p>Airport Road, Sadar, Jashore</p>
@@ -51,14 +51,16 @@ const Contact = () => {
 
                     </div>
 
-                    <form onSubmit={sendEmail} ref={form} className="contact-item">
+                    <form data-aos="zoom-in-left" onSubmit={sendEmail} ref={form} className="contact-item">
                         <input required placeholder="Write your Name" name="user_name" type="text" />
                         <input required placeholder="Provide your email" name="user_email" type="email" />
                         <textarea required className="textarea" name="message" placeholder="Write our Massage"></textarea>
                         <input type='submit' className="msg-btn" value="Send Message"></input>
                     </form>
                 </div>
+                <small className='text-center pt-5'>All Right reserved by ©rasel 2021</small>
             </div>
+           
         </div>
     );
 };

@@ -12,6 +12,10 @@ import Blogs from './pages/Blogs/Blogs';
 import NotFound from './pages/NotFound/NotFound';
 import ProjectDetails from './pages/ProjectDetails/ProjectDetails';
 import Study from './pages/Study/Study';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 const firebaseConfig = {
   apiKey: "AIzaSyBwlr09kH1CMW4X_mofe-vaWeVHmUclCeY",
   authDomain: "my-portfolio-80b66.firebaseapp.com",
