@@ -28,7 +28,7 @@ const Banner = () => {
                             <div className="">
                                 <h1 className="typewriter ">Md Rasel Haulader</h1>
                             </div>
-                            <h5 style={{ color: 'rgba(170, 107, 253, 0.816)' }} className="mt-2">Web designer & developer</h5>
+                            <h5 style={{ color: 'rgba(170, 107, 253, 0.816)' }} className="mt-2">Web  developer</h5>
                             <p className="text-center">"
                                 I am passionate about all things web <br /> development.
                                 I care about writing clean code and<br />
