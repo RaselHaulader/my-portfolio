@@ -1,4 +1,94 @@
+https://i.ibb.co/fvZHmzH/Propertybazar-1.png
+https://i.ibb.co/KKXh1Vm/Propertybazar-2.png
+https://i.ibb.co/b7kKjGT/Propertybazar-3.png
+https://i.ibb.co/2hj26jX/Propertybazar-4.png
+https://i.ibb.co/W24S6PF/Propertybazar-5.png
+https://i.ibb.co/n3XCQKp/Propertybazar-6.png
+https://i.ibb.co/tZPFHMb/Propertybazar-7.png
+https://i.ibb.co/bP92qts/Propertybazar-8.png
+https://i.ibb.co/mRhmSMy/Propertybazar-9.png
+https://i.ibb.co/C0NTPh0/Propertybazar-10.png
+https://i.ibb.co/G5rSbb1/Propertybazar-11.png
+https://i.ibb.co/vVjM7Kv/Property-Bazar-12.png
 [
+    {
+        "id": 0,
+        "name": "Property Bazar",
+        "photos": [
+            {
+                "src": "https://i.ibb.co/fvZHmzH/Propertybazar-1.png",
+                "width": 4,
+                "height": 3
+            },
+            {
+                "src": "https://i.ibb.co/KKXh1Vm/Propertybazar-2.png",
+                "width": 1,
+                "height": 1
+            },
+            {
+                "src": "https://i.ibb.co/b7kKjGT/Propertybazar-3.png",
+                "width": 3,
+                "height": 4
+            },
+            {
+                "src": "https://i.ibb.co/2hj26jX/Propertybazar-4.png",
+                "width": 3,
+                "height": 4
+            },
+            {
+                "src": "https://i.ibb.co/W24S6PF/Propertybazar-5.png",
+                "width": 3,
+                "height": 4
+            },
+            {
+                "src": "https://i.ibb.co/n3XCQKp/Propertybazar-6.png",
+                "width": 4,
+                "height": 3
+            },
+            {
+                "src": "https://i.ibb.co/tZPFHMb/Propertybazar-7.png",
+                "width": 4,
+                "height": 3
+            },
+            {
+                "src": "https://i.ibb.co/bP92qts/Propertybazar-8.png",
+                "width": 1,
+                "height": 1
+            },
+            {
+                "src": "https://i.ibb.co/mRhmSMy/Propertybazar-9.png",
+                "width": 3,
+                "height": 4
+            },
+            {
+                "src": "https://i.ibb.co/C0NTPh0/Propertybazar-10.png",
+                "width": 3,
+                "height": 4
+            },
+            {
+                "src": "https://i.ibb.co/G5rSbb1/Propertybazar-11.png",
+                "width": 3,
+                "height": 4
+            },
+            {
+                "src": "https://i.ibb.co/vVjM7Kv/Property-Bazar-12.png",
+                "width": 4,
+                "height": 3
+            }
+        ],
+        "details": "Property Bazar is a property selling and buying related MERN stack web Application. From this website users can very easily  find their desire property and beside this if any user want to sell a property then very easily users able add a property here for sell.",
+        "functionality": [
+            "User can create an account to buy a property or sell their properties.",
+            "User also can find their desired property by filtering items (location, price, category).",
+            "User can easily find their desired property by searching with a property name or type.",
+            "User can add a property to their wishlist and also can send a message to the seller.",
+            "User can manage their properties means a user can delete their added properties.",
+            "Admin can manage all the information of users and available service properties.",
+            "User is able to manage their wishlist, message from their account."
+        ],
+        "technology": "ReactJS, Redux toolkit, Nodejs(Express), MongoDB,Bootstrap,
+           Firebase Authentication, React Router, HTML, CSS."
+    },
     {
         "id": 1,
         "name": "Health Care Hospital",

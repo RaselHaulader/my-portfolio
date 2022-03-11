@@ -1,4 +1,5 @@
 import React from 'react';
+import project0 from '../../images/Propertybazar (1).png';
 import project1 from '../../images/Screenshot (71).png';
 import project2 from '../../images/Screenshot (72).png';
 import project3 from '../../images/Screenshot (95).png';
@@ -24,6 +25,17 @@ const Projects = () => {
                 </div> <br />
 
                 <div className="row project-row pt-2 pb-5">
+                    <Tilt className="parallax-effect col-md-4" perspective={500}>
+                        <ProjectItem
+                            id='0'
+                            img={project0}
+                            name={'Property Bazar'}
+                            info='Property Buying and selling website'
+                            clientCode='https://github.com/RaselHaulader/jess-property-client-side'
+                            serverCode='https://github.com/RaselHaulader/jess-property-server'
+                            live='https://property-bazar-8a4ae.web.app/'
+                        />
+                    </Tilt>
                     <Tilt className="parallax-effect col-md-4" perspective={500}>
                         <ProjectItem
                             id='2'
@@ -56,7 +68,7 @@ const Projects = () => {
                             live="https://health-care-hospital-dd05d.web.app/"
                         />
                     </Tilt>
-                    <Tilt className="parallax-effect col-md-4" perspective={500}>
+                    {/* <Tilt className="parallax-effect col-md-4" perspective={500}>
                         <ProjectItem
                             id='4'
                             img={project4}
@@ -65,7 +77,7 @@ const Projects = () => {
                             clientCode='https://github.com/RaselHaulader/Explore-Bangladesh'
                             live='https://explore-beautiful-bangladesh.netlify.app/'
                         />
-                    </Tilt>
+                    </Tilt> */}
                     <Tilt className="parallax-effect col-md-4" perspective={500}>
                         <ProjectItem
                             id='6'
