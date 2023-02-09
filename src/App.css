@@ -160,7 +160,7 @@ html {
       position: absolute;
       border-radius: 15px;
 }
-.skill-bar-html::after{
+.skill-bar-html.aos-animate::after{
   box-shadow: 0px 5px 15px orangered;
   background-color:  orangered;
   animation-name: html;  
@@ -171,19 +171,17 @@ html {
   height: 8px;
   position: absolute;
   border-radius: 15px;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-timing-function:ease-out;
-  animation-delay:1s;
   animation-fill-mode: forwards;
   animation-iteration-count:inherit;
- 
 } 
 @keyframes html{
  to{
   width:90%
 }
 }
-.skill-bar-css::after{
+.skill-bar-css.aos-animate::after{
   background-color: blue;
   box-shadow: 0px 5px 15px blue;
   animation-name: css;
@@ -193,7 +191,7 @@ html {
   width:85%
 }
 }
-.skill-bar-bootstrap::after{
+.skill-bar-bootstrap.aos-animate::after{
   background-color: rgb(116, 15, 199);
   box-shadow: 0px 5px 15px rgb(116, 15, 199);
   animation-name: bs;  
@@ -203,7 +201,7 @@ html {
   width:90%
 }
 }
-.skill-bar-javascript::after{
+.skill-bar-javascript.aos-animate::after{
   animation-name: js;
   background-color: yellow;
   box-shadow: 0px 5px 15px yellow;
@@ -213,7 +211,7 @@ html {
    width:80%
 }
 }
-.skill-bar-react::after{
+.skill-bar-react.aos-animate::after{
   animation-name: rct;
   background-color: rgba(71, 128, 252, 0.993);
   box-shadow: 0px 5px 15px  rgba(91, 143, 255, 0.993);
@@ -223,7 +221,7 @@ html {
    width:80%
 }
 }
-.skill-bar-php::after{
+.skill-bar-php.aos-animate::after{
   animation-name: php;
   background-color: rgba(252, 71, 237, 0.993);
   box-shadow: 0px 5px 15px  rgba(255, 91, 233, 0.993);
@@ -232,7 +230,7 @@ html {
   to{
    width:80%
 }}
-.skill-bar-wp::after{
+.skill-bar-wp.aos-animate::after{
   animation-name: wp;
   background-color: rgb(27, 145, 23);
   box-shadow: 0px 5px 15px  rgba(106, 255, 106, 0.993);
@@ -241,10 +239,14 @@ html {
   to{
    width:80%
 }}
-.skill-bar-python::after{
+.skill-bar-python.aos-animate::after{
   animation-name: py;
   background-color: rgba(243, 25, 18, 0.993);
   box-shadow: 0px 5px 15px  rgba(250, 49, 49, 0.993);
+}
+
+.skill-container svg{
+  fill: #fff;
 }
 @keyframes py{
   to{
